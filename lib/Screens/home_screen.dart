@@ -49,12 +49,16 @@ class _QuoteScreenState extends State<QuoteScreen> {
                 // Logic to generate a new quote will go here
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 38, 33, 33),
-                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                backgroundColor: const Color.fromARGB(255, 4, 55, 39),
+                padding: EdgeInsets.only(left: 20, right: 20),
               ),
               child: Text(
                 'Generate New Quote',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: const Color.fromARGB(255, 255, 255, 255),
+                ),
               ),
             ),
           ],
