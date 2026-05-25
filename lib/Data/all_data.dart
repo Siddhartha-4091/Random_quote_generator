@@ -6,7 +6,7 @@ const List<Map<String, int>> nums = [
   {"Saurav": 110, "Siddhartha": 111, "Priyanshu": 112}, // List index = 3
 ];
 
-final List<Map<String, String>> _genders = [
+final List<Map<String, String>> genders = [
   {"Sagar": "male", "Gaurav": "male", "Neha": "female"}, // List index = 0
   {"Priya": "female", "Sunita": "female", "Anju": "female"}, // List index = 1
   {"Vishal": "male", "Ravi": "male", "dishu": "male"}, // List index = 2
